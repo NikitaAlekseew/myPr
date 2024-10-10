@@ -1,0 +1,26 @@
+.container {
+  display: flex !important;
+  flex-direction: column;
+  background: white;
+  border-radius: 10px;
+  margin-bottom: 30px;
+  padding: 20px 15px !important;
+
+  .title {
+    margin-bottom: 15px;
+    color: rgb(157, 157, 157);
+    font-family: "Geologica";
+    font-weight: 300;
+  }
+
+  .content {
+    display: flex;
+    align-items: center;
+    .bsPlusSquareDotted {
+      font-size: 48px;
+      color: rgb(193, 193, 193);
+      cursor: pointer;
+      margin-right: 15px;
+    }
+  }
+}

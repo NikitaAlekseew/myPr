@@ -1,0 +1,31 @@
+.ql-editor {
+  font-family: "Geologica", sans-serif;
+}
+.ql-snow {
+  font-family: "Geologica", Arial, sans-serif;
+
+  &.ql-toolbar {
+    background: white;
+    border-top-left-radius: 10px;
+    border-top-right-radius: 10px;
+
+    &.ql-snow {
+      border: none;
+      border-bottom: 1px solid #e2e4e7;
+    }
+  }
+
+  &.ql-container {
+    background: white;
+    border-bottom-left-radius: 10px;
+    border-bottom-right-radius: 10px;
+
+    &.ql-snow {
+      border: none;
+    }
+  }
+}
+
+.text-editor img {
+  border-radius: 10px;
+}

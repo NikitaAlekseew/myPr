@@ -1,0 +1,20 @@
+.ql-snow .ql-picker.ql-font {
+  width: 170px;
+  white-space: nowrap;
+}
+
+.ql-snow .ql-picker.ql-font .ql-picker-options {
+  max-height: 250px;
+  overflow-y: auto;
+}
+
+/* .ql-snow .ql-picker.ql-font .ql-picker-label::before,
+.ql-snow .ql-picker.ql-font .ql-picker-item::before {
+  content: "Default";
+} */
+
+.ql-snow .ql-picker.ql-font .ql-picker-label[data-value="Geologica"]::before,
+.ql-snow .ql-picker.ql-font .ql-picker-item[data-value="Geologica"]::before {
+  content: "Geologica";
+  font-family: Geologica;
+}

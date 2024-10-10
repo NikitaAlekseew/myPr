@@ -1,0 +1,18 @@
+/* ImageLoader.scss */
+
+.filepond--root {
+  position: relative;
+}
+
+/* Скрыть надпись, когда есть файлы */
+.filepond--item {
+  position: relative;
+}
+
+.filepond--item .filepond--label-action {
+  display: none; /* Скрывает надпись после загрузки */
+}
+
+.filepond--item .filepond--image-preview-wrapper {
+  display: block; /* Показывает миниатюры */
+}

@@ -1,0 +1,20 @@
+.container,
+.containerInner {
+  border-radius: 20px;
+}
+
+.container {
+  padding: 15px;
+  background: white;
+  box-shadow: 0 4px 8px rgba(0, 0, 0, 0.04);
+}
+
+.containerInner {
+  padding: 20px;
+  background: #f9f9f9;
+}
+
+.MuiFormControl-root {
+  overflow: hidden;
+  border-radius: 10px;
+}

@@ -1,0 +1,33 @@
+.rdp-month_caption {
+  justify-content: center;
+}
+.rdp-caption_label {
+  text-transform: capitalize;
+  font-family: Geologica;
+  font-weight: 400;
+}
+
+.rdp-nav {
+  display: flex;
+  justify-content: space-between;
+}
+.rdp-day_button {
+  background: white !important;
+  border-radius: 10px;
+  margin: 3px !important;
+}
+
+.rdp-chevron {
+  width: 25px;
+  height: 25px;
+  fill: black;
+  border: 1px solid black;
+  border-radius: 50%;
+}
+
+.rdp-day:not(.rdp-disabled) {
+  .rdp-day_button {
+    color: #0050b3;
+    border-color: #0050b3;
+  }
+}
